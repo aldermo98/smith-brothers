@@ -53,65 +53,7 @@
             <div class="spinner"></div>
         </div><!-- Preloader -->
         
-        <header id="header" class="header-section">
-            <div class="container">
-                <nav class="navbar ">
-                    <a href="index.html" class="navbar-brand"><img src="img/logo-dark.png" alt="Arkit"></a>
-                    <div class="d-flex menu-wrap">
-                       <div id="mainmenu" class="mainmenu">
-                           <ul class="nav">
-                               <li><a data-scroll class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a> 
-                                    <ul>
-                                       <li><a href="index.html">Home Default</a></li>
-                                       <li><a href="index-2.html">Home Modern</a></li>
-                                       <li><a href="index-3.html">Home Classic</a></li>
-                                       <li><a href="index-4.html">Home Dark</a></li>
-                                       <li><a href="index-5.html">Home Video Bg</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">About</a> 
-                                    <ul>
-                                       <li><a href="about-us.html">About Us</a></li>
-                                       <li><a href="about-company.html">About Company</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Services</a> 
-                                    <ul>
-                                       <li><a href="services-1.html">Services 01</a></li>
-                                       <li><a href="services-2.html">Services 02</a></li>
-                                       <li><a href="services-3.html">Services 03</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Projects</a> 
-                                    <ul>
-                                       <li><a href="projects.html">All Projects</a></li>
-                                       <li><a href="project-single.html">Projects Single</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Pages</a> 
-                                    <ul>
-                                       <li><a href="team.html">Our Team</a></li>
-                                       <li><a href="testimonial.html">Testimonial</a></li>
-                                       <li><a href="404.html">404 Error</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Blog</a> 
-                                    <ul>
-                                       <li><a href="blog-grid.html">Blog Grid</a></li>
-                                       <li><a href="blog-classic.html">Blog Classic</a></li>
-                                       <li><a href="blog-single.html">Blog Single</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li class="phone"><i class="fa fa-phone"></i> (+123) 456 789 101</li>
-                            </ul>
-                       </div>
-                    </div>
-                </nav>
-            </div>
-		</header> <!--.header-section -->
-		
-        <div class="header-height"></div>
+        <custom-header></custom-header>
 
         <div id="main-slider" class="dl-slider">
             <div class="single-slide">
@@ -178,21 +120,43 @@
                 </div>  
             </div><!--Slide-3-->
         </div><!--/.slider-section-->
-        
+
         <section class="about-section padding">
             <div class="container">
                 <div class="row about-wrap d-flex align-items-center">
-                    <div class="col-md-6 xs-padding">
+                    <div class="col-lg-6 xs-padding">
                         <div class="about-content">
-                            <h2>Creating place that enhance <br> the human experience.</h2>
-                            <p>Arkit is a different kind of architecture practice. Founded by LoganCee in 1991, we’re an employee-owned firm pursuing a democratic design process that values everyone’s input.</p>
-                            <p>Today we have more than 150 people in London, Hong Kong and Sydney providing architecture, interior and urban design services from concept to completion.</p>
-                            <a href="#" class="default-btn">More About Us</a>
+                            <div class="about-content">
+                                <h2>Our Mission: <strong>Disrupt the Ordinary</strong></h2>
+                                <p>At Smith Brothers, we don’t just renovate — we disrupt. Our mission is to raise the bar for home remodeling with exceptional customer service, transparent communication, free estimates, and a seamless project experience from start to finish. You’ll be posting your “after” photos in no time.</p>
+                                <p>We proudly serve communities within the Tacoma-Seattle metro area:</p>
+                                <ul class="about-list d-flex" style="gap: 1rem;">
+                                    <div>
+                                        <li><i class="fas fa-check"></i><a href="service-areas/auburn">Federal Way, WA</a></li>
+                                        <li><i class="fas fa-check"></i><a href="service-areas/auburn">Auburn, WA</a></li>
+                                        <li><i class="fas fa-check"></i><a href="service-areas/auburn">Convington, WA</a></li>
+                                        <li><i class="fas fa-check"></i><a href="service-areas/auburn">Tacoma, WA</a></li>
+                                        <li><i class="fas fa-check"></i><a href="service-areas/auburn">Renton, WA</a></li>
+                                        <li><i class="fas fa-check"></i><a href="service-areas/auburn">Seattle, WA</a></li>
+                                    </div>
+                                    <div>
+                                        <li><i class="fas fa-check"></i><a href="service-areas/auburn">Bellevue, WA</a></li>
+                                        <li><i class="fas fa-check"></i><a href="service-areas/auburn">Kirkland, WA</a></li>
+                                        <li><i class="fas fa-check"></i><a href="service-areas/auburn">Kent, WA</a></li>
+                                        <li><i class="fas fa-check"></i><a href="service-areas/auburn">Des Moines, WA</a></li>
+                                        <li><i class="fas fa-check"></i><a href="service-areas/auburn">Burien, WA</a></li>
+                                        <li><i class="fas fa-check"></i><a href="service-areas/auburn">Tukwila, WA</a></li>
+                                    </div>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6 xs-padding">
-                        <div class="about-bg">
-                            <div class="about-bg"></div>
+                    <div class="col-lg-6 xs-padding">
+                        <div class="about-slider-wrap">
+                            <div id="about-carousel" class="about-carousel carousel-nav owl-carousel">
+                                <img src="img/about-slide-1.jpg" alt="img">
+                                <img src="img/about-slide-2.jpg" alt="img">
+                            </div>
                             <div class="dots"></div>
                             <div class="year-text">
                                <div class="year-content">
@@ -205,13 +169,23 @@
                 </div>
             </div>
         </section><!--/.about-section-->
+
+        <section class="cta-section padding">
+            <div class="container">
+                <div class="cta-content text-center">
+                    <h2>Ready to Transform Your Kitchen or Bathroom?</h2>
+                    <p>Get a free, no-obligation estimate from our expert remodeling team. Let’s bring comfort, style, and lasting value to your home — starting today.</p>
+                    <a href="#" class="default-btn">Request Your Free Estimate</a>
+                </div>
+            </div>
+        </section><!--/.cta-section-->
         
         <section class="service-section bg-grey padding">
            <div class="dots"></div>
             <div class="container">
                 <div class="section-heading text-center mb-40">
                    <span>Services</span>
-                   <h2>Our speciallization</h2>
+                   <h2>Our services</h2>
                 </div><!--/.section-heading-->
                 <div class="service-wrap row">
                     <div class="col-lg-4 col-sm-6 padding-15">
@@ -221,8 +195,8 @@
                             </div>
                             <div class="service-content">
                                 <i class="m-flaticon-refinery"></i>
-                                <h3>Architecture</h3>
-                                <p>We offer a fully integrated service that complements the architectural concept, we ensure all projects.</p>
+                                <h3>Kitchen Remodeling</h3>
+                                <p>From custom cabinetry to premium countertops, we specialize in kitchen remodels that blend function, beauty, and long-lasting value.</p>
                                 <a href="#">View Projects</a>
                             </div>
                         </div>
@@ -234,12 +208,12 @@
                             </div>
                             <div class="service-content">
                                 <i class="m-flaticon-industrial-robot-1"></i>
-                                <h3>Interior Design</h3>
-                                <p>We offer a fully integrated service that complements the architectural concept, we ensure all projects.</p>
+                                <h3>Bathroom Remodeling</h3>
+                                <p>Upgrade your daily routine with a spa-like bathroom remodel, designed for comfort, elegance, and optimized space.</p>
                                 <a href="#">View Projects</a>
                             </div>
                         </div>
-                    </div><!--Item 3-->
+                    </div><!--Item 2-->
                     <div class="col-lg-4 col-sm-6 padding-15">
                         <div class="service-item">
                             <div class="service-thumb">
@@ -247,12 +221,51 @@
                             </div>
                             <div class="service-content">
                                 <i class="m-flaticon-factory"></i>
-                                <h3>Commercial Design</h3>
-                                <p>We offer a fully integrated service that complements the architectural concept, we ensure all projects.</p>
+                                <h3>Interior Design</h3>
+                                <p>Our expert design team helps bring your vision to life, crafting stunning interiors that reflect your lifestyle and taste.</p>
                                 <a href="#">View Projects</a>
                             </div>
                         </div>
                     </div><!--Item 3-->
+                    <div class="col-lg-4 col-sm-6 padding-15">
+                        <div class="service-item">
+                            <div class="service-thumb">
+                                <img src="img/service-4.jpg" alt="thumb">
+                            </div>
+                            <div class="service-content">
+                                <i class="m-flaticon-industrial-robot"></i>
+                                <h3>Interior & Exterior Remodeling</h3>
+                                <p>We handle full-scale home remodels, inside and out—enhancing curb appeal, improving layouts, and modernizing every detail.</p>
+                                <a href="#">View Projects</a>
+                            </div>
+                        </div>
+                    </div><!--Item 4-->
+                    <div class="col-lg-4 col-sm-6 padding-15">
+                        <div class="service-item">
+                            <div class="service-thumb">
+                                <img src="img/service-5.jpg" alt="thumb">
+                            </div>
+                            <div class="service-content">
+                                <i class="m-flaticon-worker"></i>
+                                <h3>Custom Renovation Design</h3>
+                                <p>Every home is unique—our custom renovation designs are tailored to your needs, from concept to final build.</p>
+                                <a href="#">View Projects</a>
+                            </div>
+                        </div>
+                    </div><!--Item 5-->
+                    <div class="col-lg-4 col-sm-6 padding-15">
+                        <div class="service-item">
+                            <div class="service-thumb">
+                                <img src="img/service-6.jpg" alt="thumb">
+                            </div>
+                            <div class="service-content">
+                                <i class="m-flaticon-assembly-line"></i>
+                                <h3>Complete Home Remodeling</h3>
+                                <p>Whether it’s a single room or a full home renovation, our team delivers high-quality craftsmanship and attention to detail.</p>
+                                <a href="#">View Projects</a>
+                            </div>
+                        </div>
+                    </div><!--Item 6-->
                 </div>
             </div>
         </section><!--/.service-section-->
@@ -399,7 +412,7 @@
                     <div class="testi-item d-flex align-items-center">
                         <img src="img/testi-1.jpg" alt="img">
                         <div class="testi-content">
-                            <p>"Thank you for guiding us through the construction process, understanding, and always ready to accommodate our needs. We love our new space and know that it was built by the very best!"</p>
+                            <p>"Smith Brothers completely transformed our outdated kitchen into a modern, functional space that we absolutely love. From the initial design consultation to the final touches, their team was professional, detailed, and on schedule."</p>
                             <h3>Kyle Frederick</h3>
                             <ul class="rattings">
                                 <li><i class="fa fa-star"></i></li>
@@ -408,14 +421,15 @@
                                 <li><i class="fa fa-star"></i></li>
                                 <li><i class="fa fa-star"></i></li>
                             </ul>
-                            <span>Director</span>
+                            <span>Federal Way Homeowner</span>
                         </div>
                         <i class="fa fa-quote-right"></i>
                     </div>
+
                     <div class="testi-item d-flex align-items-center">
                         <img src="img/testi-2.jpg" alt="img">
                         <div class="testi-content">
-                            <p>"Thank you for guiding us through the construction process, understanding, and always ready to accommodate our needs. We love our new space and know that it was built by the very best!"</p>
+                            <p>"We hired Smith Brothers for a full bathroom remodel, and the results were stunning. Their attention to detail and eye for design made our bathroom feel like a luxury spa. Highly recommend for any bathroom renovation in the Seattle area!"</p>
                             <h3>Valentin Lacoste</h3>
                             <ul class="rattings">
                                 <li><i class="fa fa-star"></i></li>
@@ -424,14 +438,15 @@
                                 <li><i class="fa fa-star"></i></li>
                                 <li><i class="fa fa-star"></i></li>
                             </ul>
-                            <span>Director</span>
+                            <span>Seattle Homeowner</span>
                         </div>
                         <i class="fa fa-quote-right"></i>
                     </div>
+
                     <div class="testi-item d-flex align-items-center">
                         <img src="img/testi-3.jpg" alt="img">
                         <div class="testi-content">
-                            <p>"Thank you for guiding us through the construction process, understanding, and always ready to accommodate our needs. We love our new space and know that it was built by the very best!"</p>
+                            <p>"After meeting with several contractors, we chose Smith Brothers for our kitchen and bathroom remodel—and we're so glad we did. Their team was responsive, clean, and committed to quality from day one."</p>
                             <h3>José Carpio</h3>
                             <ul class="rattings">
                                 <li><i class="fa fa-star"></i></li>
@@ -440,13 +455,23 @@
                                 <li><i class="fa fa-star"></i></li>
                                 <li><i class="fa fa-star"></i></li>
                             </ul>
-                            <span>Director</span>
+                            <span>Tacoma Homeowner</span>
                         </div>
                         <i class="fa fa-quote-right"></i>
                     </div>
                 </div>
             </div>
         </section><!--/.testimonial-section-->
+
+        <section class="cta-section padding">
+            <div class="container">
+                <div class="cta-content text-center">
+                    <h2>Ready to Transform Your Kitchen or Bathroom?</h2>
+                    <p>Get a free, no-obligation estimate from our expert remodeling team. Let’s bring comfort, style, and lasting value to your home — starting today.</p>
+                    <a href="#" class="default-btn">Request Your Free Estimate</a>
+                </div>
+            </div>
+        </section><!--/.cta-section-->
         
         <section class="blog-section padding">
             <div class="container">
@@ -530,61 +555,7 @@
             </div>
         </div><!--/.sponsor-section-->
 		
-        <section class="widget-section padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6 sm-padding">
-                        <div class="widget-content">
-                            <a href="#"><img src="img/logo-dark.png" alt="brand"></a>
-                            <p>Building your own home is about desire, fantasy. But it’s achievable anyone can do it.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-sm-6 sm-padding">
-                        <div class="widget-content">
-                            <h4>Company</h4>
-                            <ul class="widget-links">
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Clients Reviews</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 sm-padding">
-                        <div class="widget-content">
-                            <h4>Headquaters</h4>
-                            <p>962 Fifth Avenue, 3rd Floor New York, NY10022</p>
-                            <span>Hello@dynamiclayers.net</span>
-                            <span>(+123) 456 789 101</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 sm-padding">
-                        <div class="widget-content">
-                            <h4>Newslatter Subscription</h4>
-                            <p>Subscribe and get 10% off from our <br>architecture company.</p>
-                            <div class="subscribe-box clearfix">
-                                <div class="subscribe-form-wrap">
-                                    <form action="#" class="subscribe-form">
-                                        <input type="email" name="email" id="subs-email" class="form-input" placeholder="Enter Your Email Address...">
-                                        <button type="submit" class="submit-btn">Subscribe</button>
-                                        <div id="subscribe-result">
-                                            <p class="subscription-success"></p>
-                                            <p class="subscription-error"></p>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!--/.widget-section-->
-        
-		<footer class="footer-section align-center">
-			<div class="container">
-				<p>&copy; 2019 Arkit Powered by DynamicLayers</p>
-			</div>
-		</footer><!-- /.footer-section -->
+        <custom-footer></custom-footer>
 
 		<a data-scroll href="#header" id="scroll-to-top"><i class="arrow_carrot-up"></i></a>
 	
@@ -617,7 +588,11 @@
         <!-- Google Map JS -->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPH8h1UpcK01BdcvoZeOzq-_wJqRxN1Pc"></script>
 		<!-- Main JS -->
-		<script src="js/main.js"></script>
+		<script src="js/main.js" defer></script>
+
+        <!-- Custom Header JS -->
+        <script src="web-components/header.js"></script>
+        <script src="web-components/footer.js"></script>
 
     </body>
 </html>

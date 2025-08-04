@@ -55,6 +55,10 @@
 	padding: 0;
 	margin: 0;
 }
+
+:root {
+    --color-primary: #345683;
+}
 body{
     background-color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
@@ -68,17 +72,17 @@ body{
 }
 
 ::selection {
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     color: #fff
 }
 
 -webkit-::selection {
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     color: #fff
 }
 
 ::-moz-selection {
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     color: #fff
 }
 
@@ -278,7 +282,7 @@ button{
 }
 
 .site-preloader-wrap .spinner {
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -324,7 +328,7 @@ button{
     margin-bottom: 15px;
 }
 .default-btn{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     text-transform: uppercase;
     font-family: "Work Sans",sans-serif;
     color: #fff;
@@ -367,7 +371,7 @@ button{
     height: 30px;
     left: -15px;
     top: -10px;
-    border: 3px solid #bfca02;
+    border: 3px solid var(--color-primary);
     opacity: 0.5;
     z-index: -1;
 }
@@ -503,7 +507,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     transition: color 0.3s ease 0s, padding 0.3s ease 0s;
 }
 #mainmenu li > ul > li:hover a{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     color: #fff;
 }
 #mainmenu li > ul ul{
@@ -557,7 +561,7 @@ ul.nav li.phone{
     padding-left: 50px;
 }
 ul.nav li.phone i{
-    color: #bfca02;
+    color: var(--color-primary);
     margin-right: 5px;
 }
 
@@ -565,7 +569,7 @@ ul.nav > li > a:hover,
 ul.nav > li > a:focus,
 ul.nav > li > a.active{
     background: none;
-    color: #bfca02;
+    color: var(--color-primary);
     opacity: 1;
 }
 .menu-btn{
@@ -691,7 +695,7 @@ ul.nav > li > a.active{
     content: "";
     width: 120px;
     height: 120px;
-    border: 5px solid #bfca02;
+    border: 5px solid var(--color-primary);
     left: -10px;
     top: -80px;
     z-index: -1;
@@ -723,7 +727,7 @@ ul.nav > li > a.active{
 }
 .about-list li i{
     font-size: 10px;
-    color: #bfca02;
+    color: var(--color-primary);
     margin-right: 10px;
 }
 .year-box{
@@ -802,7 +806,7 @@ ul.nav > li > a.active{
     border-radius: 5px;
 }
 .about-section.bg-dark .play-icon{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     color: #fff;
     width: 90px;
     height: 90px;
@@ -901,12 +905,12 @@ ul.nav > li > a.active{
     z-index: 1;
 } 
 .service-content i:before{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     border-radius: 2px;
     padding: 10px;
 }
 .service-item a{
-    color: #bfca02;
+    color: var(--color-primary);
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
@@ -922,7 +926,7 @@ ul.nav > li > a.active{
     transition: all 0.2s ease-in-out;
 }
 .section-2 .service-item:hover{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
@@ -933,7 +937,7 @@ ul.nav > li > a.active{
     color: #fff;
 }
 .section-2 .service-item i{
-    color: #bfca02;
+    color: var(--color-primary);
     margin-bottom: 10px;
     display: block;
 }
@@ -946,7 +950,7 @@ ul.nav > li > a.active{
 .bg-dark .service-item{
     background-color: #242323;
     border: 1px solid rgba(255,255,255,0.05);
-    border-bottom: 3px solid #bfca02;
+    border-bottom: 3px solid var(--color-primary);
 }
 /* Service Style 3
 ====================*/
@@ -956,7 +960,7 @@ ul.nav > li > a.active{
 }
 .service-box i{}
 .service-box i:before{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     padding: 15px;
     color: #fff;
     border-radius: 2px;
@@ -1093,7 +1097,7 @@ ul.nav > li > a.active{
 }
 .project-2 .project-item .project-content h3 a:hover{
     text-decoration: underline;
-    color: #bfca02;
+    color: var(--color-primary);
 }
 .project-2 .project-item .project-content p{
     margin-bottom: 30px;
@@ -1154,7 +1158,7 @@ ul.nav > li > a.active{
     height: 110px;
     left: -55px;
     top: -20px;
-    border: 5px solid #bfca02;
+    border: 5px solid var(--color-primary);
     opacity: 0.5;
     z-index: -1;
 }
@@ -1226,7 +1230,7 @@ ul.nav > li > a.active{
     letter-spacing: 1px;
     font-family: "Work Sans",sans-serif;
     padding: 5px 10px;
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     box-shadow: 0px 14px 70px -10px rgba(0,0,0,.15);
     text-transform: uppercase;
     font-weight: 600;
@@ -1336,7 +1340,7 @@ ul.nav > li > a.active{
     background-color: #fff;
     position: relative;
     padding: 30px;
-    border-left: 4px solid #bfca02;
+    border-left: 4px solid var(--color-primary);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 .testi-item .fa-quote-right{
@@ -1344,7 +1348,7 @@ ul.nav > li > a.active{
     right: 30px;
     bottom: 25px;
     font-size: 50px;
-    color: #bfca02;
+    color: var(--color-primary);
     opacity: 0.5;
 }
 /*Rattings*/
@@ -1357,7 +1361,7 @@ ul.nav > li > a.active{
 }
 .testi-content .rattings li i{
     font-size: 10px;
-    color: #bfca02;
+    color: var(--color-primary);
     display: inline-block;
 }
 /*Boolets*/
@@ -1380,7 +1384,7 @@ ul.nav > li > a.active{
     text-align: center;
 }
 .owl-controls .owl-dots .owl-dot.active{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
 }
 /* ==========================================================================
    CTA Section
@@ -1550,7 +1554,7 @@ ul.nav > li > a.active{
     text-decoration: underline;
 }
 .error-content .error-info a:hover{
-    color: #bfca02;
+    color: var(--color-primary);
 }
 /* ==========================================================================
    Contact Section
@@ -1587,7 +1591,7 @@ ul.nav > li > a.active{
     box-shadow: none;
 }
 .form-control:focus{
-    border-color: #bfca02;
+    border-color: var(--color-primary);
     box-shadow: none;
     outline: none;
 }
@@ -1624,7 +1628,7 @@ ul.nav > li > a.active{
     position: relative;
 }
 .blog-item .blog-thumb .category{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     padding: 5px 15px;
     text-align: center;
     color: #fff;
@@ -1654,7 +1658,7 @@ ul.nav > li > a.active{
 .bg-dark .blog-content{
     background-color: #242323;
     border: 1px solid rgba(255,255,255,0.1);
-    border-bottom: 5px solid #bfca02;
+    border-bottom: 5px solid var(--color-primary);
 }
 .bg-dark .blog-content h3 a{
     color: #fff;
@@ -1674,7 +1678,7 @@ ul.nav > li > a.active{
     line-height: 24px;
 }
 .blog-content h3 a:hover{
-    color: #bfca02;
+    color: var(--color-primary);
 }
 .blog-content .read-more{
     font-family: "Work Sans",sans-serif;
@@ -1686,10 +1690,10 @@ ul.nav > li > a.active{
     padding-left: 40px;
 }
 .blog-content .read-more:hover{
-    color: #bfca02;
+    color: var(--color-primary);
 }
 .blog-content .read-more:before{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     position: absolute;
     content: "";
     width: 30px;
@@ -1720,14 +1724,14 @@ ul.nav > li > a.active{
     border-radius: 2px;
 }
 .pagination-wrap li a:hover{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     color: #fff;
     opacity: 1;
     text-decoration: none;
 }
 .pagination-wrap li a.active{
-    background-color: #bfca02;
-    border: 1px solid #bfca02;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
     color: #fff;
 }
 /* Sidebar Style
@@ -1743,7 +1747,7 @@ ul.nav > li > a.active{
     margin-bottom: 30px;
 }
 .sidebar-wrap .widget-content h4:before{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     position: absolute;
     content: "";
     width: 20%;
@@ -1833,7 +1837,7 @@ ul.nav > li > a.active{
     letter-spacing: -0.5px;
 }
 .thumb-post li a:hover{
-    color: #bfca02;
+    color: var(--color-primary);
     text-decoration: underline;
 }
 /* Tag Cloud Style
@@ -1844,7 +1848,7 @@ ul.nav > li > a.active{
 }
 .widget-content .tags li a{
     display: inline-block;
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     padding: 5px 10px;
     border-radius: 2px;
     font-size: 12px;
@@ -1869,7 +1873,7 @@ ul.nav > li > a.active{
     color: #263a4f;
 }
 .blog-single-content h2 a:hover{
-    color: #bfca02;
+    color: var(--color-primary);
 }
 .single-post-meta{
     margin-bottom: 20px;
@@ -1880,7 +1884,7 @@ ul.nav > li > a.active{
 }
 .single-post-meta li i{
     font-size: 12px;
-    color: #bfca02;
+    color: var(--color-primary);
     margin-right: 5px;
 }
 .single-post-meta li a{
@@ -1896,7 +1900,7 @@ ul.nav > li > a.active{
 blockquote{
     background-color: #f5f5f5;
     padding: 40px;
-    border-left: 4px solid #bfca02;
+    border-left: 4px solid var(--color-primary);
     margin: 30px 0;
     position: relative;
     z-index: 1;
@@ -1929,7 +1933,7 @@ blockquote span{
 }
 .post-tags li a{
     display: inline-block;
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     padding: 5px 10px;
     border-radius: 2px;
     font-size: 12px;
@@ -1948,7 +1952,7 @@ blockquote span{
     align-items: center;
     padding: 30px;
     margin-top: 30px;
-    border-left: 4px solid #bfca02;
+    border-left: 4px solid var(--color-primary);
 }
 .author-box img{
     border-radius: 50%;
@@ -1971,7 +1975,7 @@ blockquote span{
     color: #263a4f;
 }
 .author-box .social-icon li a:hover{
-    color: #bfca02;
+    color: var(--color-primary);
 }
 /* Post Navigation
 ====================*/
@@ -2010,7 +2014,7 @@ blockquote span{
     margin-left: 10px;
 }
 .post-navigation .col a:hover{
-    color: #bfca02;
+    color: var(--color-primary);
 }
 .post-navigation .col.prev-post .fa{
     margin-right: 10px;
@@ -2088,14 +2092,14 @@ blockquote span{
     font-family: "Work Sans", sans-serif;
     font-size: 12px;
     font-weight: 600;
-    color: #bfca02;
+    color: var(--color-primary);
     display: inline-block;
     text-transform: uppercase;
     padding-left: 35px;
     position: relative;
 }
 .blog-single-wrap .comments-area .comment-reply-link:before{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     position: absolute;
     content: "";
     width: 30px;
@@ -2128,7 +2132,7 @@ blockquote span{
 }
 .blog-single-wrap .comment-respond form input:focus,
 .blog-single-wrap .comment-respond form textarea:focus {
-    border-color: #bfca02;
+    border-color: var(--color-primary);
 }
 .blog-single-wrap .comment-respond form textarea {
     height: 200px;
@@ -2148,7 +2152,7 @@ blockquote span{
 .blog-single-wrap .comment-respond .form-submit input{
     font-family: "Work Sans", sans-serif;
     max-width: 180px;
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     color: #fff;
     font-weight: 600;
     font-size: 12px;
@@ -2216,7 +2220,7 @@ blockquote span{
     line-height: 1.9;
 }
 .widget-content .widget-links li a:hover{
-    color: #bfca02;
+    color: var(--color-primary);
 }
 
 .subscribe-form{
@@ -2231,7 +2235,7 @@ blockquote span{
     border-radius: 2px;
 }
 .subscribe-form .submit-btn{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     font-family: "Work Sans",sans-serif;
     text-transform: uppercase;
     color: #fff;
@@ -2267,7 +2271,7 @@ blockquote span{
    Scroll To Top
    ========================================================================== */
 #scroll-to-top{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     display: none;
     width: 45px;
     height: 45px;
@@ -2282,7 +2286,7 @@ blockquote span{
     z-index: 999;
 }
 #scroll-to-top:hover{
-    background-color: #bfca02;
+    background-color: var(--color-primary);
     color: #fff;
     opacity: 0.8;
 }

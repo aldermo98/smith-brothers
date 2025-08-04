@@ -53,65 +53,7 @@
             <div class="spinner"></div>
         </div><!-- Preloader -->
         
-        <header id="header" class="header-section">
-            <div class="container">
-                <nav class="navbar ">
-                    <a href="index.html" class="navbar-brand"><img src="img/logo-dark.png" alt="Arkit"></a>
-                    <div class="d-flex menu-wrap">
-                       <div id="mainmenu" class="mainmenu">
-                           <ul class="nav">
-                               <li><a data-scroll class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a> 
-                                    <ul>
-                                       <li><a href="index.html">Home Default</a></li>
-                                       <li><a href="index-2.html">Home Modern</a></li>
-                                       <li><a href="index-3.html">Home Classic</a></li>
-                                       <li><a href="index-4.html">Home Dark</a></li>
-                                       <li><a href="index-5.html">Home Video Bg</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">About</a> 
-                                    <ul>
-                                       <li><a href="about-us.html">About Us</a></li>
-                                       <li><a href="about-company.html">About Company</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Services</a> 
-                                    <ul>
-                                       <li><a href="services-1.html">Services 01</a></li>
-                                       <li><a href="services-2.html">Services 02</a></li>
-                                       <li><a href="services-3.html">Services 03</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Projects</a> 
-                                    <ul>
-                                       <li><a href="projects.html">All Projects</a></li>
-                                       <li><a href="project-single.html">Projects Single</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Pages</a> 
-                                    <ul>
-                                       <li><a href="team.html">Our Team</a></li>
-                                       <li><a href="testimonial.html">Testimonial</a></li>
-                                       <li><a href="404.html">404 Error</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Blog</a> 
-                                    <ul>
-                                       <li><a href="blog-grid.html">Blog Grid</a></li>
-                                       <li><a href="blog-classic.html">Blog Classic</a></li>
-                                       <li><a href="blog-single.html">Blog Single</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li class="phone"><i class="fa fa-phone"></i> (+123) 456 789 101</li>
-                            </ul>
-                       </div>
-                    </div>
-                </nav>
-            </div>
-		</header> <!--.header-section -->
-
-        <div class="header-height"></div>
+        <custom-header></custom-header>
 		
 		<section class="page-header padding">
 		    <div class="container">
@@ -128,9 +70,7 @@
                     <div class="col-md-6 xs-padding">
                         <div class="about-content">
                             <h2>Creating place that enhance <br> the human experience.</h2>
-                            <p>Arkit is a different kind of architecture practice. Founded by LoganCee in 1991, we’re an employee-owned firm pursuing a democratic design process that values everyone’s input.</p>
-                            <p>Today we have more than 150 people in London, Hong Kong and Sydney providing architecture, interior and urban design services from concept to completion.</p>
-                            <a href="#" class="default-btn">More About Us</a>
+                            <p>Founded by two brothers with a passion for functional design and timeless style, Smith Brothers Remodeling has been transforming homes in the Seattle-Tacoma area since 2020. What started as a love for quality craftsmanship in kitchen and bathroom remodels has grown into a trusted, full-service renovation business rooted in comfort, luxury, and results that last.</p>
                         </div>
                     </div>
                     <div class="col-md-6 xs-padding">
@@ -139,10 +79,40 @@
                             <div class="dots"></div>
                             <div class="year-text">
                                <div class="year-content">
-                                    <h2>10</h2>
+                                    <h2>6</h2>
                                     <span>Years of experience</span>
                                </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row about-wrap d-flex align-items-center flex-row-reverse">
+                    <div class="col-md-6 xs-padding">
+                        <div class="about-content">
+                            <h2>Our Mission: <strong>Disrupt the Ordinary</strong></h2>
+                            <p>At Smith Brothers, we don’t just renovate — we disrupt. Our mission is to raise the bar for home remodeling with exceptional customer service, transparent communication, free estimates, and a seamless project experience from start to finish. You’ll be posting your “after” photos in no time.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 xs-padding">
+                        <div class="about-bg">
+                            <div class="about-bg"></div>
+                            <div class="dots"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row about-wrap d-flex align-items-center">
+                    <div class="col-md-6 xs-padding">
+                        <div class="about-content">
+                            <h2>What Sets Us Apart</h2>
+                            <p>We’re proud to be locally owned and operated, serving homeowners across the Seattle-Tacoma metro area. Every remodel is handled with precision and care — because your home deserves excellence. We are licensed, insured, and bonded to protect your investment every step of the way.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 xs-padding">
+                        <div class="about-bg">
+                            <div class="about-bg"></div>
+                            <div class="dots"></div>
                         </div>
                     </div>
                 </div>
@@ -367,61 +337,7 @@
             </div>
         </section><!--/.sponsor-section-->
 		
-        <section class="widget-section padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6 sm-padding">
-                        <div class="widget-content">
-                            <a href="#"><img src="img/logo-dark.png" alt="brand"></a>
-                            <p>Building your own home is about desire, fantasy. But it’s achievable anyone can do it.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-sm-6 sm-padding">
-                        <div class="widget-content">
-                            <h4>Company</h4>
-                            <ul class="widget-links">
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Clients Reviews</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 sm-padding">
-                        <div class="widget-content">
-                            <h4>Headquaters</h4>
-                            <p>962 Fifth Avenue, 3rd Floor New York, NY10022</p>
-                            <span>Hello@dynamiclayers.net</span>
-                            <span>(+123) 456 789 101</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 sm-padding">
-                        <div class="widget-content">
-                            <h4>Newslatter Subscription</h4>
-                            <p>Subscribe and get 10% off from our <br>architecture company.</p>
-                            <div class="subscribe-box clearfix">
-                                <div class="subscribe-form-wrap">
-                                    <form action="#" class="subscribe-form">
-                                        <input type="email" name="email" id="subs-email" class="form-input" placeholder="Enter Your Email Address...">
-                                        <button type="submit" class="submit-btn">Subscribe</button>
-                                        <div id="subscribe-result">
-                                            <p class="subscription-success"></p>
-                                            <p class="subscription-error"></p>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!--/.widget-section-->
-        
-		<footer class="footer-section align-center">
-			<div class="container">
-				<p>&copy; 2019 Arkit Powered by DynamicLayers</p>
-			</div>
-		</footer><!-- /.footer-section -->
+        <custom-footer></custom-footer>
 
 		<a data-scroll href="#header" id="scroll-to-top"><i class="arrow_carrot-up"></i></a>
 	
@@ -454,7 +370,11 @@
         <!-- Google Map JS -->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPH8h1UpcK01BdcvoZeOzq-_wJqRxN1Pc"></script>
         <!-- Main JS -->
-        <script src="js/main.js"></script>
+        <script src="js/main.js" defer></script>
+
+        <!-- Custom Header JS -->
+        <script src="web-components/header.js"></script>
+        <script src="web-components/footer.js"></script>
 
     </body>
 </html>
