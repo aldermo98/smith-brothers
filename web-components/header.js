@@ -19,7 +19,7 @@ class CustomHeader extends HTMLElement {
                                         <li><a href="service-areas/tacoma.html">Tacoma</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="projects.html">Projects</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
                                 <li class="phone"><a href="/free-estimate">Free Estimate</a></li>
                             </ul>
                        </div>

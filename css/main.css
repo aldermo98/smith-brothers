@@ -58,6 +58,7 @@
 
 :root {
     --color-primary: #345683;
+    --color-secondary: #bfca02;
 }
 body{
     background-color: #fff;
@@ -657,9 +658,9 @@ ul.nav > li > a.active{
     margin-top: 40px;
 }
 .about-bg{
-    background-image: url(../img/about.jpg);
     background-position: top right;
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 500px;
     top: 0;
@@ -695,7 +696,7 @@ ul.nav > li > a.active{
     content: "";
     width: 120px;
     height: 120px;
-    border: 5px solid var(--color-primary);
+    border: 5px solid var(--color-secondary);
     left: -10px;
     top: -80px;
     z-index: -1;
@@ -729,6 +730,9 @@ ul.nav > li > a.active{
     font-size: 10px;
     color: var(--color-primary);
     margin-right: 10px;
+}
+.about-list li a:not(:hover){
+    color: var(--color-primary);
 }
 .year-box{
     padding-left: 150px;
@@ -822,7 +826,6 @@ ul.nav > li > a.active{
 
 /* About Style 4*/
 .about-section .about-slider-wrap{
-    background-image: url(../img/about-slider-bg.jpg);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 80%;
@@ -1390,7 +1393,7 @@ ul.nav > li > a.active{
    CTA Section
    ========================================================================== */
 .cta-section{
-    background-image: url(../img/cta-bg.jpg);
+    background-image: url(../img/client-images/bathroom-after-3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1398,11 +1401,11 @@ ul.nav > li > a.active{
     width: 100%;
     height: 100%; 
 }
-.cta-content h2{
-    color: #fff;
-}
-.cta-content p{
-    color: #ddd;
+
+.cta-content{
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    padding: 2rem;
 }
 
 /* ==========================================================================
@@ -2183,13 +2186,30 @@ blockquote span{
     background: url(../img/bg-dots.png) 0 0 repeat;
     z-index: -1;
 }
-.sponsor-item{}
+.sponsor-item{
+    max-width: 100px;
+    margin-inline: auto;
+}
 .sponsor-item img{
     opacity: 0.5;
 }
 .sponsor-item:hover img{
     opacity: 1;
     cursor: pointer;
+}
+
+.sponsor-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.sponsor-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 /* ==========================================================================

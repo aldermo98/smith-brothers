@@ -23,7 +23,7 @@ class CustomFooter extends HTMLElement {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-12 sm-padding">
+                        <div class="col-lg-4 col-sm-12 sm-padding ml-auto">
                             <div class="widget-content">
                                 <h4>Contact Us</h4>
                                 <div><a href="mailto:info@support.smithbrothersdevelopment.homes"><i class="fa fa-envelope mr-2"></i> info@support.smithbrothersdevelopment.homes</a></div>
@@ -49,7 +49,7 @@ class CustomFooter extends HTMLElement {
         
             <footer class="footer-section align-center">
                 <div class="container">
-                    <p>&copy; 2025 Smith Brothers Development LLC Powered by <a href="https://neoboltsystems.com/">Neobolt Systems</a></p>
+                    <p>&copy; 2025 Smith Brothers Development LLC Powered by <a href="https://neoboltsystems.com/" target="_blank">Neobolt Systems</a></p>
                 </div>
             </footer><!-- /.footer-section -->
         `;
