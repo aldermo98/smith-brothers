@@ -7,7 +7,7 @@ class CustomFooter extends HTMLElement {
                     <div class="row">
                         <div class="col-lg-3 col-sm-6 sm-padding">
                             <div class="widget-content">
-                                <a href="#"><img src="img/logo-dark.png" alt="brand"></a>
+                                <a href="#"><img src="/img/logo-dark.png" alt="brand"></a>
                                 <p>Locally owned, Family operated.</p>
                                 <p>❤️ Proudly serving Seattle-Tacoma metro area</p>
                             </div>
