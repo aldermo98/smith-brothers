@@ -5,11 +5,11 @@ class CustomHeader extends HTMLElement {
             <header id="header" class="header-section">
             <div class="container">
                 <nav class="navbar ">
-                    <a href="index.html" class="navbar-brand"><img src="/img/logo-dark.png" alt="Arkit"></a>
+                    <a href="/index.html" class="navbar-brand"><img src="/img/logo-dark.png" alt="Smith Brothers Development"></a>
                     <div class="d-flex menu-wrap">
                        <div id="mainmenu" class="mainmenu">
                             <ul class="nav">
-                                <li><a data-scroll class="nav-link active" href="/">Home</a></li>
+                                <li><a data-scroll class="nav-link active" href="/index.html">Home</a></li>
                                 <li><a href="/about-us.html">About</a></li>
                                 <li>
                                     <a href="/services.html">Services</a>
