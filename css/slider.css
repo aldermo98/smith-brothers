@@ -73,6 +73,12 @@
     position: relative;
     padding-left: 80px;
 }
+
+@media (max-width: 768px) {
+    .dl-slider .slider-content{
+        padding-left: 2rem;
+    }
+}
 .dl-slider .dl-caption.dl-border{
     background-color: transparent;
     position: absolute;
