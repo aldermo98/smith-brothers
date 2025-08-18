@@ -465,8 +465,11 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     opacity: 0.8;
 }
 
+.navbar-brand{
+    padding: 0.5rem 0;
+}
 .navbar-brand img{
-    width: 150px;
+    width: 125px;
 }
 /*Dropdown Style
 ==================*/
@@ -2241,6 +2244,7 @@ blockquote span{
 .widget-content{}
 .widget-content img{
     margin-bottom: 20px;
+    width: 125px;
 }
 .widget-content h4{}
 .widget-content p{}
@@ -2300,10 +2304,6 @@ blockquote span{
     color: #ababc7;
     margin: 0;
 }  
-
-.footer .widget-content img{
-    width: 150px;
-}
 
 /* ==========================================================================
    Scroll To Top
