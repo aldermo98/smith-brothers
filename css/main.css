@@ -713,6 +713,8 @@ ul.nav > li > a.active{
     color: #263a4f;
     text-transform: uppercase;
     font-weight: 600;
+    z-index: 1;
+    position: relative;
 }
 /* About Style 2
 ===============*/
